@@ -17,7 +17,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-from cholojai.settings import env, STATIC_URL, MEDIA_URL, STATIC_ROOT, MEDIA_ROOT
+from shop_manager.settings import env, STATIC_URL, MEDIA_URL, STATIC_ROOT, MEDIA_ROOT
 
 api_url_patterns = (
     [
